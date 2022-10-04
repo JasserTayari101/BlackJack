@@ -24,7 +24,7 @@ class Deck:
 # Hand class
 class Hand:
     def __init__(self,dealer=False):
-        self.dealer = dealer
+        self.dealer = dealer        #flag value
         self.cards = []
         self.value = 0
     def add_card(self,card):
