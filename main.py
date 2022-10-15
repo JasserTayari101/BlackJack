@@ -53,7 +53,7 @@ class Game:
                 playing = False
             else:
                 has_won = False
-    def check(self):
+    def check(self):    #check for blackjack
         player = self.player_hand.get_value() == 21
         dealer = self.dealer_hand.get_value() == 21
         return player,dealer
